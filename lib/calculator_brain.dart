@@ -37,7 +37,7 @@ class CalculatorBrain {
   }
 
   Color getColor() {
-    if(_bmi >= 25 || _bmi < 18)
+    if(_bmi >= 25 || _bmi < 18.5)
       return Color(0xFFD82424);
     else
       return Color(0xFF24D876);
